@@ -11,13 +11,13 @@
       "body": "DM Sans, sans-serif"
     },
     "scale": {
-      "h1": "text-5xl md:text-7xl font-bold tracking-tight leading-none",
-      "h2": "text-4xl md:text-5xl font-semibold tracking-tight",
-      "h3": "text-2xl md:text-3xl font-medium",
-      "body": "text-base md:text-lg leading-relaxed",
-      "caption": "text-sm tracking-wide uppercase text-muted-foreground"
+      "h1": "text-5xl md:text-7xl font-bold tracking-tight leading-none text-[#283618]",
+      "h2": "text-4xl md:text-5xl font-semibold tracking-tight text-[#283618]",
+      "h3": "text-2xl md:text-3xl font-medium text-[#283618]",
+      "body": "text-base md:text-lg leading-relaxed text-[#2F3E46]",
+      "caption": "text-sm tracking-wide uppercase text-[#606C38]"
     },
-    "installation": "Import from Google Fonts: @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');"
+    "installation": "@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');"
   },
   "colors": {
     "palette": {
@@ -64,15 +64,15 @@
   },
   "components": {
     "buttons": {
-      "default": "bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 py-3 font-medium transition-transform hover:scale-105 active:scale-95",
-      "outline": "border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground rounded-full px-8 py-3"
+      "default": "bg-[#BC6C25] text-white hover:bg-[#BC6C25]/90 rounded-full px-8 py-3 font-medium transition-transform hover:scale-105 active:scale-95 shadow-lg shadow-[#BC6C25]/20",
+      "outline": "border-2 border-[#283618] text-[#283618] hover:bg-[#283618] hover:text-[#FEFAE0] rounded-full px-8 py-3 transition-colors"
     },
     "cards": {
-      "product": "bg-white/50 backdrop-blur-sm border border-[#E9EDC9] hover:border-[#BC6C25]/50 transition-colors p-6 rounded-2xl group overflow-hidden relative",
-      "feature": "bg-[#FAEDCD] p-8 rounded-3xl"
+      "product": "bg-white/50 backdrop-blur-sm border border-[#E9EDC9] hover:border-[#BC6C25]/50 transition-all duration-300 p-0 rounded-2xl group overflow-hidden relative shadow-sm hover:shadow-md",
+      "feature": "bg-[#FAEDCD] p-8 rounded-3xl border border-[#E9EDC9]"
     },
     "inputs": {
-      "style": "bg-white/50 border-[#E9EDC9] focus:border-[#BC6C25] focus:ring-[#BC6C25] rounded-lg p-3"
+      "style": "bg-white/60 border-[#E9EDC9] focus:border-[#BC6C25] focus:ring-[#BC6C25] rounded-lg p-3 text-[#283618] placeholder:text-[#606C38]/60"
     }
   },
   "motion": {
@@ -85,7 +85,7 @@
     "categories": {
       "oil": "https://images.pexels.com/photos/9814625/pexels-photo-9814625.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "tea": "https://images.pexels.com/photos/28206588/pexels-photo-28206588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "honey": "https://images.pexels.com/photos/33266/honey-sweet-honeycomb-insect.jpg",
+      "honey": "https://images.pexels.com/photos/4921856/pexels-photo-4921856.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "dried_fruits": "https://images.pexels.com/photos/3872416/pexels-photo-3872416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "chocolate": "https://images.pexels.com/photos/4791301/pexels-photo-4791301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "cheese": "https://images.pexels.com/photos/6660118/pexels-photo-6660118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
