@@ -1,0 +1,121 @@
+{
+  "brand_identity": {
+    "name": "EcoJenya",
+    "tone": "Natural, Artisanal, Trustworthy, Warm",
+    "archetype": "Organic & Earthy",
+    "target_audience": "Health-conscious individuals, 25-55, Belarus/CIS"
+  },
+  "typography": {
+    "font_family": {
+      "headings": "Playfair Display, serif",
+      "body": "DM Sans, sans-serif"
+    },
+    "scale": {
+      "h1": "text-5xl md:text-7xl font-bold tracking-tight leading-none",
+      "h2": "text-4xl md:text-5xl font-semibold tracking-tight",
+      "h3": "text-2xl md:text-3xl font-medium",
+      "body": "text-base md:text-lg leading-relaxed",
+      "caption": "text-sm tracking-wide uppercase text-muted-foreground"
+    },
+    "installation": "Import from Google Fonts: @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');"
+  },
+  "colors": {
+    "palette": {
+      "background": "#FEFAE0",
+      "foreground": "#283618",
+      "card": "#FAEDCD",
+      "card_foreground": "#283618",
+      "popover": "#FEFAE0",
+      "popover_foreground": "#283618",
+      "primary": "#283618",
+      "primary_foreground": "#FEFAE0",
+      "secondary": "#606C38",
+      "secondary_foreground": "#FFFFFF",
+      "muted": "#FAEDCD",
+      "muted_foreground": "#606C38",
+      "accent": "#BC6C25",
+      "accent_foreground": "#FFFFFF",
+      "destructive": "#9B2226",
+      "destructive_foreground": "#FFFFFF",
+      "border": "#E9EDC9",
+      "input": "#E9EDC9",
+      "ring": "#606C38"
+    },
+    "usage_rules": {
+      "background_strategy": "Use #FEFAE0 (Cream) as the main background. Avoid pure white.",
+      "text_contrast": "Use #283618 (Dark Green) for main text. Never use pure black.",
+      "cta_buttons": "Use #BC6C25 (Caramel) for primary actions (Order, Contact).",
+      "gradients": "No gradients. Use solid earth tones or subtle noise textures."
+    }
+  },
+  "visual_enhancers": {
+    "texture": "Add a subtle noise texture overlay to the entire body to mimic recycled paper. opacity-5.",
+    "border_radius": "rounded-xl for cards, rounded-full for buttons",
+    "shadows": "shadow-[0_8px_30px_rgb(0,0,0,0.04)] for hovering cards. Flat otherwise.",
+    "glassmorphism": "Use bg-[#FEFAE0]/80 backdrop-blur-md for sticky headers."
+  },
+  "layout_strategy": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "spacing": "Generous. Section padding: py-20 or py-24. Component padding: p-6 or p-8.",
+    "grid_system": {
+      "catalog": "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8",
+      "features": "Bento grid style: mix of col-span-1 and col-span-2 items."
+    }
+  },
+  "components": {
+    "buttons": {
+      "default": "bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 py-3 font-medium transition-transform hover:scale-105 active:scale-95",
+      "outline": "border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground rounded-full px-8 py-3"
+    },
+    "cards": {
+      "product": "bg-white/50 backdrop-blur-sm border border-[#E9EDC9] hover:border-[#BC6C25]/50 transition-colors p-6 rounded-2xl group overflow-hidden relative",
+      "feature": "bg-[#FAEDCD] p-8 rounded-3xl"
+    },
+    "inputs": {
+      "style": "bg-white/50 border-[#E9EDC9] focus:border-[#BC6C25] focus:ring-[#BC6C25] rounded-lg p-3"
+    }
+  },
+  "motion": {
+    "transitions": "transition-all duration-300 ease-out",
+    "hover_effects": "Slight lift (-translate-y-1) and shadow increase on hover.",
+    "loading": "Use a spinning sunflower icon or organic pulse effect."
+  },
+  "images": {
+    "hero_background": "https://images.pexels.com/photos/35334085/pexels-photo-35334085.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "categories": {
+      "oil": "https://images.pexels.com/photos/9814625/pexels-photo-9814625.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "tea": "https://images.pexels.com/photos/28206588/pexels-photo-28206588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "honey": "https://images.pexels.com/photos/33266/honey-sweet-honeycomb-insect.jpg",
+      "dried_fruits": "https://images.pexels.com/photos/3872416/pexels-photo-3872416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "chocolate": "https://images.pexels.com/photos/4791301/pexels-photo-4791301.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "cheese": "https://images.pexels.com/photos/6660118/pexels-photo-6660118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    "testimonials": [
+      "https://images.pexels.com/photos/14100280/pexels-photo-14100280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://images.pexels.com/photos/4926684/pexels-photo-4926684.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  "universal_guidelines": [
+    "Do NOT use pure black (#000000) or pure white (#FFFFFF). Use the provided cream and dark green shades.",
+    "Ensure all buttons have a hover state that slightly changes lightness or scale.",
+    "Use distinct padding (p-8+) to create a luxurious, unhurried feel.",
+    "For the catalog, use high-quality images with 'object-cover' and rounded corners.",
+    "Navigation links should be simple text with an underline effect on hover (hover:underline decoration-2 underline-offset-4).",
+    "Include 'data-testid' on all interactive elements.",
+    "Use Lucide-React icons with stroke-width={1.5} for a refined look."
+  ],
+  "libraries": {
+    "icons": "lucide-react",
+    "animations": "framer-motion (for page transitions and scroll reveals)",
+    "carousel": "embla-carousel-react (for testimonials/product gallery)",
+    "notifications": "sonner"
+  },
+  "instructions_to_main_agent": [
+    "1. UPDATE tailwind.config.js with the colors provided in 'colors.palette'.",
+    "2. ADD the Google Fonts import to index.css.",
+    "3. APPLY the global background color (#FEFAE0) to the body in index.css.",
+    "4. CREATE a 'Layout' component that includes the Navbar and Footer, wrapping all pages.",
+    "5. USE the provided image URLs for the respective sections.",
+    "6. ENSURE the Admin Panel uses a denser layout but maintains the color scheme (maybe slightly lighter for readability)."
+  ]
+}
