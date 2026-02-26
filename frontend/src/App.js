@@ -19,32 +19,32 @@ const products = [
     id: "oils",
     title: "Масла холодного отжима",
     tag: "Холодный отжим",
-    description: "Кедровое, тыквенное, кунжутное. Без нагрева и химии — максимум омега‑3/6/9 и аминокислот.",
-    image: "https://mofmarket.by/s3/mof-bucket/media/sellers/seller-7af83eef-37ce-450c-ba64-16f4a72b5394/advs/adv-acaca95b-27bc-4a6b-9ae7-64a25cbafae8/web/275x275/ca0850db-338d-427b-91c3-240ad68d6959_%D1%82%D1%8B%D0%BA%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5-%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0.webp",
+    description: "Кедровое, тыквенное, кунжутное, льняное. Без нагрева и химии — максимум омега‑3/6/9 и аминокислот.",
+    image: "https://ecojenya.by/wp-content/uploads/2021/03/IMG_3205-2-300x300.jpg",
     colSpan: "md:col-span-2 md:row-span-2"
   },
   {
-    id: "chocolate",
-    title: "Шоколад handmade",
-    tag: "Ручная работа",
-    description: "Bean‑to‑bar из Гомеля. Теобромин, магний и железо для энергии и иммунитета.",
-    image: "https://mofmarket.by/s3/mof-bucket/media/sellers/seller-7af83eef-37ce-450c-ba64-16f4a72b5394/advs/adv-3a3dce50-8c91-41f6-9a3c-5efce67d3ec2/web/275x275/9607d001-b207-4327-a907-46e0bcde4b4b_025DA3F8-D7E6-4E24-9A75-E9F9AF9D6BD0-scaled.webp",
+    id: "honey",
+    title: "Мёд и сладости",
+    tag: "Натуральный мёд",
+    description: "Алтайский мёд, халва, пряники на пророщенном зерне. Полезные сладости без сахара.",
+    image: "https://images.pexels.com/photos/4921856/pexels-photo-4921856.jpeg?auto=compress&cs=tinysrgb&w=800",
     colSpan: "md:col-span-2"
   },
   {
-    id: "cheese",
-    title: "Сыр из сырого молока",
-    tag: "Сырое молоко",
-    description: "Живой продукт без консервантов. Сбалансированный вкус и польза для микробиома.",
-    image: "https://mofmarket.by/s3/mof-bucket/media/sellers/seller-7af83eef-37ce-450c-ba64-16f4a72b5394/advs/adv-eb66f73c-9afa-418f-af61-c553541fcfe0/web/275x275/b9c4c57f-5cb1-4d78-b475-4b127bce3d96_%D0%93%D1%80%D1%8E%D0%B9%D0%B5%D1%80)-%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0.webp",
+    id: "herbs",
+    title: "Лесные травы и бальзамы",
+    tag: "Сборы",
+    description: "Травяные чаи, бальзамы и напитки для здоровья. Ручной сбор.",
+    image: "https://ecojenya.by/wp-content/uploads/2022/01/3B56C10A-8102-4718-8002-D2F099848F56-300x300.jpeg",
     colSpan: "md:col-span-2"
   },
   {
     id: "tea",
     title: "Чай и травяные сборы",
-    tag: "Сборы",
+    tag: "Для тонуса",
     description: "Собственные миксы для тонуса, сна и мягкой детокс‑поддержки.",
-    image: "https://mofmarket.by/s3/mof-bucket/media/sellers/seller-7af83eef-37ce-450c-ba64-16f4a72b5394/advs/adv-74a6a23e-860c-4779-b286-083b0a70a013/web/275x275/74b1fc4c-4b8e-40e7-8a55-24422f803c84_D4165458-FC30-40E6-BB8E-12D0B9E58B38.webp",
+    image: "https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=800",
     colSpan: "md:col-span-1"
   },
   {
@@ -52,7 +52,7 @@ const products = [
     title: "Урбеч и суперфуды",
     tag: "Энергия",
     description: "Паста из семян и орехов с плотной питательностью и насыщением.",
-    image: "https://mofmarket.by/s3/mof-bucket/media/sellers/seller-7af83eef-37ce-450c-ba64-16f4a72b5394/advs/adv-5efd6d8a-639e-455b-8929-06ec3708e219/web/275x275/1396eb55-9c4d-4238-8013-3847fcb18d57_54038B96-03EA-4E83-A2C6-1A4115301454-scaled.webp",
+    image: "https://ecojenya.by/wp-content/uploads/2020/11/1-300x300.jpg",
     colSpan: "md:col-span-1"
   },
 ];
