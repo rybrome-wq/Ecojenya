@@ -9,30 +9,22 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #FEFAE0;
+  background: #F4F1EA;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #E9EDC9;
+  background: #E5E0D6;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #606C38;
+  background: #3A4D39;
 }
 
 /* Selection */
 ::selection {
-  background: #BC6C25;
-  color: #FFFFFF;
-}
-
-/* Line clamp */
-.line-clamp-2 {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  background: #D4A373;
+  color: white;
 }
 
 /* Smooth scroll */
@@ -42,20 +34,11 @@ html {
 
 /* Focus styles */
 *:focus-visible {
-  outline: 2px solid #BC6C25;
+  outline: 2px solid #D4A373;
   outline-offset: 2px;
 }
 
 /* Remove tap highlight on mobile */
 * {
   -webkit-tap-highlight-color: transparent;
-}
-
-/* Image loading animation */
-img {
-  transition: opacity 0.3s ease;
-}
-
-img[src=""] {
-  opacity: 0;
 }
