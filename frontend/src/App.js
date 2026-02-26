@@ -25,34 +25,34 @@ const products = [
   },
   {
     id: "honey",
-    title: "Мёд и сладости",
+    title: "Мёд белорусский",
     tag: "Натуральный мёд",
-    description: "Алтайский мёд, халва, пряники на пророщенном зерне. Полезные сладости без сахара.",
-    image: "https://images.pexels.com/photos/4921856/pexels-photo-4921856.jpeg?auto=compress&cs=tinysrgb&w=800",
+    description: "Гречишный, лесной, разнотравье. 100% натуральный мёд с белорусских пасек.",
+    image: "https://ecojenya.by/wp-content/uploads/2022/02/E12A61C5-B286-44B6-BEA4-9496196FCCF0-300x300.jpeg",
+    colSpan: "md:col-span-2"
+  },
+  {
+    id: "sherbets",
+    title: "Щербеты и сладости",
+    tag: "Натуральные сладости",
+    description: "Щербет из орехов, кунжута, тыквенных семечек. Пряники на пророщенном зерне.",
+    image: "https://ecojenya.by/wp-content/uploads/2022/02/F4EDB0EA-F5F4-4A4E-AB8D-D4A695C4C69E-300x300.jpeg",
     colSpan: "md:col-span-2"
   },
   {
     id: "herbs",
     title: "Лесные травы и бальзамы",
-    tag: "Сборы",
-    description: "Травяные чаи, бальзамы и напитки для здоровья. Ручной сбор.",
+    tag: "Для здоровья",
+    description: "Масло зверобоя, живица кедровая. Природные средства для укрепления здоровья.",
     image: "https://ecojenya.by/wp-content/uploads/2022/01/3B56C10A-8102-4718-8002-D2F099848F56-300x300.jpeg",
-    colSpan: "md:col-span-2"
-  },
-  {
-    id: "tea",
-    title: "Чай и травяные сборы",
-    tag: "Для тонуса",
-    description: "Собственные миксы для тонуса, сна и мягкой детокс‑поддержки.",
-    image: "https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=800",
     colSpan: "md:col-span-1"
   },
   {
-    id: "urbec",
-    title: "Урбеч и суперфуды",
-    tag: "Энергия",
-    description: "Паста из семян и орехов с плотной питательностью и насыщением.",
-    image: "https://ecojenya.by/wp-content/uploads/2020/11/1-300x300.jpg",
+    id: "nuts",
+    title: "Орехи и жмых",
+    tag: "Суперфуды",
+    description: "Грецкий орех, кедровый жмых. Источник белка и полезных жиров.",
+    image: "https://ecojenya.by/wp-content/uploads/2022/02/1F38DC1B-D7E2-43A7-AA37-2F342E5C31DB-300x300.jpeg",
     colSpan: "md:col-span-1"
   },
 ];
