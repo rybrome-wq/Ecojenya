@@ -164,24 +164,19 @@ class EcoJenyaAPITester:
         
         return success
 
+    def test_health_check(self):
+        """Test health check endpoint"""
+        return self.run_test("Health Check", "GET", "health")
+
     def run_all_tests(self):
         """Run all API tests"""
-        print("🚀 Starting EcoJenya API Tests")
+        print("🚀 Starting EcoJenya Static Landing Page API Tests")
         print(f"📍 Testing against: {self.base_url}")
         print("=" * 60)
         
-        # Test API availability
+        # Test basic API endpoints (static version)
         self.test_api_root()
-        
-        # Test core functionality
-        self.test_categories()
-        self.test_products()
-        self.test_reviews()
-        self.test_instagram_feed()
-        self.test_contact_info()
-        
-        # Test admin operations
-        self.test_admin_operations()
+        self.test_health_check()
         
         # Print summary
         print("\n" + "=" * 60)
