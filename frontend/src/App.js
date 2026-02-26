@@ -64,6 +64,10 @@ const catalogItems = [
   { id: "sesame-oil-250", name: "Кунжутное масло", category: "Масла", format: "250 мл", price: "25 BYN", image: "https://ecojenya.by/wp-content/uploads/2020/12/%D0%BA%D1%83%D0%BD%D0%B6%D1%83%D1%82%D0%BD%D0%BE%D0%B5-%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0-300x300.jpg" },
   { id: "linseed-oil-250", name: "Льняное масло", category: "Масла", format: "250 мл", price: "17 BYN", image: "https://ecojenya.by/wp-content/uploads/2020/11/%D0%9B%D1%8C%D0%BD%D1%8F%D0%BD%D0%BE%D0%B5-2-%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0-300x300.jpg" },
   { id: "walnut-oil-250", name: "Масло грецкого ореха", category: "Масла", format: "250 мл", price: "12 BYN", image: "https://ecojenya.by/wp-content/uploads/2020/12/%D0%9C%D0%B0%D1%81%D0%BB%D0%BE-%D0%B3%D1%80%D0%B5%D1%86%D0%BA%D0%BE%D0%B5-%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0-300x300.jpg" },
+  { id: "honey-buckwheat", name: "Мёд гречишно-разнотравный", category: "Мёд", format: "750 г", price: "10 BYN", image: "https://ecojenya.by/wp-content/uploads/2022/02/E12A61C5-B286-44B6-BEA4-9496196FCCF0-300x300.jpeg" },
+  { id: "sherbets-walnut", name: "Щербет грецкого ореха", category: "Сладости", format: "250 г", price: "6.25 BYN", image: "https://ecojenya.by/wp-content/uploads/2022/02/F4EDB0EA-F5F4-4A4E-AB8D-D4A695C4C69E-300x300.jpeg" },
+  { id: "sherbets-sesame", name: "Щербет кунжутный", category: "Сладости", format: "250 г", price: "6.25 BYN", image: "https://ecojenya.by/wp-content/uploads/2022/02/2F4DA47C-1D5C-4821-B13C-6A4A9987C1B1-300x300.jpeg" },
+  { id: "pryaniki", name: "Пряники зерновые", category: "Сладости", format: "шт", price: "2 BYN", image: "https://ecojenya.by/wp-content/uploads/2022/01/4D1A8CD5-C7A7-4ECC-8477-BA0F656896D3-300x300.jpeg" },
 ];
 
 const processSteps = [
