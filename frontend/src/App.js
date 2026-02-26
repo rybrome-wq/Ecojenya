@@ -61,7 +61,7 @@ const catalogItems = [
   { id: "sunflower-oil-250", name: "Подсолнечное масло", category: "Масла", format: "250 мл", price: "12 BYN", image: "https://ecojenya.by/wp-content/uploads/2020/11/3-300x300.jpg" },
   { id: "pumpkin-oil-250", name: "Тыквенное масло", category: "Масла", format: "250 мл", price: "20 BYN", image: "https://ecojenya.by/wp-content/uploads/2021/03/IMG_3205-2-300x300.jpg" },
   { id: "cedar-oil-100", name: "Кедровое масло", category: "Масла", format: "100 мл", price: "38 BYN", image: "https://ecojenya.by/wp-content/uploads/2021/03/%D0%9A%D0%B5%D0%B4%D1%80%D0%BE%D0%B2%D0%BE%D0%B5-%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0-300x300.jpg" },
-  { id: "sesame-oil-250", name: "Кунжутное масло", category: "Масла", format: "250 мл", price: "25 BYN", image: "https://customer-assets.emergentagent.com/job_homemade-dairy-goods/artifacts/z6gmhl88_IMG_3206%202.heic" },
+  { id: "sesame-oil-250", name: "Кунжутное масло", category: "Масла", format: "250 мл", price: "25 BYN", image: "https://ecojenya.by/wp-content/uploads/2020/12/%D0%BA%D1%83%D0%BD%D0%B6%D1%83%D1%82%D0%BD%D0%BE%D0%B5-%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0-300x300.jpg" },
   { id: "linseed-oil-250", name: "Льняное масло", category: "Масла", format: "250 мл", price: "17 BYN", image: "https://ecojenya.by/wp-content/uploads/2020/11/%D0%9B%D1%8C%D0%BD%D1%8F%D0%BD%D0%BE%D0%B5-2-%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0-300x300.jpg" },
   { id: "walnut-oil-250", name: "Масло грецкого ореха", category: "Масла", format: "250 мл", price: "12 BYN", image: "https://ecojenya.by/wp-content/uploads/2020/12/%D0%9C%D0%B0%D1%81%D0%BB%D0%BE-%D0%B3%D1%80%D0%B5%D1%86%D0%BA%D0%BE%D0%B5-%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0-300x300.jpg" },
 ];
