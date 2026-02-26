@@ -80,9 +80,9 @@ const testimonials = [
 ];
 
 const instagramShots = [
-  { id: "insta-1", src: "https://images.pexels.com/photos/9814620/pexels-photo-9814620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" },
-  { id: "insta-2", src: "https://images.pexels.com/photos/18908652/pexels-photo-18908652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" },
-  { id: "insta-3", src: "https://images.pexels.com/photos/2877311/pexels-photo-2877311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" },
+  { id: "insta-1", src: "https://ecojenya.by/wp-content/uploads/2020/11/ecojenya_122718021_345756650051646_8803516263782716224_n-e1604616220183-750x750.jpg" },
+  { id: "insta-2", src: "https://ecojenya.by/wp-content/uploads/2020/11/ecojenya_120911824_3911946705491210_3793404232387712559_n-750x750.jpg" },
+  { id: "insta-3", src: "https://ecojenya.by/wp-content/uploads/2020/11/ecojenya_121832942_2749543708658564_4997642504590010554_n-e1604616691608-750x750.jpg" },
 ];
 
 const faqs = [
