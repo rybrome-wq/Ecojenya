@@ -268,7 +268,7 @@ const HeroSection = () => (
         <div className="lg:col-span-6" data-testid="hero-visual">
           <div className="relative">
             <img
-              src="https://mofmarket.by/s3/mof-bucket/media/sellers/seller-7af83eef-37ce-450c-ba64-16f4a72b5394/advs/adv-b826149a-204e-4f00-a590-04d98f27304c/web/275x275/6020a406-6e19-4b87-9134-7217d00c4ca4_%D0%9A%D0%B5%D0%B4%D1%80%D0%BE%D0%B2%D0%BE%D0%B5%201-%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0.webp"
+              src="https://ecojenya.by/wp-content/uploads/2021/03/%D0%9A%D0%B5%D0%B4%D1%80%D0%BE%D0%B2%D0%BE%D0%B5-%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0-300x300.jpg"
               alt="Натуральные масла EcoJenya"
               className="h-[520px] w-full rounded-[32px] object-cover shadow-2xl"
               data-testid="hero-image"
