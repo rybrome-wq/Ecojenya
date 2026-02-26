@@ -20,39 +20,39 @@ const products = [
     title: "Масла холодного отжима",
     tag: "Холодный отжим",
     description: "Кедровое, тыквенное, кунжутное, льняное. Без нагрева и химии — максимум омега‑3/6/9 и аминокислот.",
-    image: "https://ecojenya.by/wp-content/uploads/2021/03/IMG_3205-2-300x300.jpg",
+    image: "https://mofmarket.by/s3/mof-bucket/media/sellers/seller-7af83eef-37ce-450c-ba64-16f4a72b5394/advs/adv-acaca95b-27bc-4a6b-9ae7-64a25cbafae8/web/275x275/ca0850db-338d-427b-91c3-240ad68d6959_%D1%82%D1%8B%D0%BA%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5-%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0.webp",
     colSpan: "md:col-span-2 md:row-span-2"
+  },
+  {
+    id: "cheese",
+    title: "Сыр из сырого молока",
+    tag: "Ручная работа",
+    description: "Грюйер, Камамбер, Пармезан. Живой продукт без консервантов с богатым вкусом.",
+    image: "https://mofmarket.by/s3/mof-bucket/media/sellers/seller-7af83eef-37ce-450c-ba64-16f4a72b5394/advs/adv-eb66f73c-9afa-418f-af61-c553541fcfe0/web/275x275/b9c4c57f-5cb1-4d78-b475-4b127bce3d96_%D0%93%D1%80%D1%8E%D0%B9%D0%B5%D1%80)-%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0.webp",
+    colSpan: "md:col-span-2"
+  },
+  {
+    id: "chocolate",
+    title: "Шоколад ручной работы",
+    tag: "Bean-to-bar",
+    description: "Шоколад из какао-бобов Fino de Aroma. На меду, без сахара — для истинных ценителей.",
+    image: "https://mofmarket.by/s3/mof-bucket/media/sellers/seller-7af83eef-37ce-450c-ba64-16f4a72b5394/advs/adv-3a3dce50-8c91-41f6-9a3c-5efce67d3ec2/web/275x275/9607d001-b207-4327-a907-46e0bcde4b4b_025DA3F8-D7E6-4E24-9A75-E9F9AF9D6BD0-scaled.webp",
+    colSpan: "md:col-span-2"
   },
   {
     id: "honey",
     title: "Мёд белорусский",
-    tag: "Натуральный мёд",
+    tag: "Натуральный",
     description: "Гречишный, лесной, разнотравье. 100% натуральный мёд с белорусских пасек.",
-    image: "https://ecojenya.by/wp-content/uploads/2022/02/E12A61C5-B286-44B6-BEA4-9496196FCCF0-300x300.jpeg",
-    colSpan: "md:col-span-2"
-  },
-  {
-    id: "sherbets",
-    title: "Щербеты и сладости",
-    tag: "Натуральные сладости",
-    description: "Щербет из орехов, кунжута, тыквенных семечек. Пряники на пророщенном зерне.",
-    image: "https://ecojenya.by/wp-content/uploads/2022/02/F4EDB0EA-F5F4-4A4E-AB8D-D4A695C4C69E-300x300.jpeg",
-    colSpan: "md:col-span-2"
-  },
-  {
-    id: "herbs",
-    title: "Лесные травы и бальзамы",
-    tag: "Для здоровья",
-    description: "Масло зверобоя, живица кедровая. Природные средства для укрепления здоровья.",
-    image: "https://ecojenya.by/wp-content/uploads/2022/01/3B56C10A-8102-4718-8002-D2F099848F56-300x300.jpeg",
+    image: "https://mofmarket.by/s3/mof-bucket/media/sellers/seller-7af83eef-37ce-450c-ba64-16f4a72b5394/advs/adv-c001a7a2-bb6e-4608-9fe2-c3bc525cbb89/web/275x275/71480be1-c799-4c5e-a772-7eac5fcdcd69_E12A61C5-B286-44B6-BEA4-9496196FCCF0-scaled.webp",
     colSpan: "md:col-span-1"
   },
   {
-    id: "nuts",
-    title: "Орехи и жмых",
-    tag: "Суперфуды",
-    description: "Грецкий орех, кедровый жмых. Источник белка и полезных жиров.",
-    image: "https://ecojenya.by/wp-content/uploads/2022/02/1F38DC1B-D7E2-43A7-AA37-2F342E5C31DB-300x300.jpeg",
+    id: "urbec",
+    title: "Урбеч и суперфуды",
+    tag: "Энергия",
+    description: "Паста из семян и орехов с плотной питательностью и насыщением.",
+    image: "https://mofmarket.by/s3/mof-bucket/media/sellers/seller-7af83eef-37ce-450c-ba64-16f4a72b5394/advs/adv-5efd6d8a-639e-455b-8929-06ec3708e219/web/275x275/1396eb55-9c4d-4238-8013-3847fcb18d57_54038B96-03EA-4E83-A2C6-1A4115301454-scaled.webp",
     colSpan: "md:col-span-1"
   },
 ];
